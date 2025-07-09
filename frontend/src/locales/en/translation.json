@@ -1,0 +1,80 @@
+{
+  "title": "Manual Generator",
+  "subtitle": "Automatically create manuals from videos",
+  "upload": {
+    "mainTitle": "Generate Manual from Video",
+    "mainDescription": "Upload your video and AI will automatically create a step-by-step manual with screenshots",
+    "title": "Upload Video",
+    "dragDrop": "Drag & drop file here",
+    "orClick": "or click to select file",
+    "supportedFormats": "Supported formats: MP4, MOV, AVI, WebM",
+    "maxSize": "Max size: 500MB",
+    "maxDuration": "Max duration: 10 minutes",
+    "processing": "Processing...",
+    "cancel": "Cancel"
+  },
+  "options": {
+    "title": "Options",
+    "language": "Language",
+    "detailLevel": "Detail Level",
+    "detailLevels": {
+      "simple": "Simple",
+      "detailed": "Detailed"
+    }
+  },
+  "buttons": {
+    "generateManual": "Generate Manual",
+    "download": "Download",
+    "viewPdf": "View PDF",
+    "newManual": "New Manual"
+  },
+  "terms": {
+    "agreement": "I agree to the Terms of Service",
+    "content": "By using this service, you agree to the following:\n• Uploaded videos will be automatically deleted after 15 minutes\n• Generated images (screenshots) will be automatically deleted after 15 minutes\n• We are not responsible for the content of generated manuals\n• This service may be changed or discontinued without notice"
+  },
+  "status": {
+    "uploading": "Uploading video...",
+    "analyzing": "Analyzing video...",
+    "extracting": "Extracting screenshots...",
+    "generating": "Generating manual...",
+    "completed": "Completed",
+    "stages": {
+      "uploading": "Upload",
+      "analyzing": "Analyze",
+      "extracting": "Extract",
+      "generating": "Generate"
+    }
+  },
+  "manual": {
+    "title": "Operation Manual",
+    "language": "Language",
+    "detailLevel": "Detail Level",
+    "createdAt": "Created",
+    "languages": {
+      "ja": "Japanese",
+      "en": "English"
+    },
+    "detailLevels": {
+      "simple": "Simple",
+      "detailed": "Detailed"
+    }
+  },
+  "processing": {
+    "inProgress": "Processing",
+    "waitMessage": "Please wait...",
+    "errorOccurred": "An error occurred",
+    "completed": "Manual generation completed.",
+    "retry": "Retry",
+    "showDetails": "Show technical details",
+    "timestamp": "Timestamp",
+    "errorDetails": "Error details"
+  },
+  "errors": {
+    "fileTooLarge": "File size exceeds 500MB",
+    "invalidFormat": "Unsupported file format",
+    "uploadFailed": "Upload failed",
+    "processingFailed": "Processing failed",
+    "networkError": "Network error occurred",
+    "timeout": "Request timed out"
+  }
+}
